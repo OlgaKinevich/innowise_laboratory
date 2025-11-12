@@ -1,8 +1,12 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "my_project"
+version = "0.1.0"
+description = "my_project"
 
-[tool.setuptools]
 dependencies = [
     "colorama"
 ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
