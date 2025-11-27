@@ -1,3 +1,7 @@
+"""
+This module generates a simple user profile based on age and hobbies.
+"""
+
 def generate_profile(age):
     """
     Function to determine the user's life stage based on their age.
