@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "book_api"
+version = "0.1.0"
+description = "My FastAPI project for Lecture 5"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic"
+]
+[tool.setuptools]
+py-modules = ["main", "models"] 
+
+
+
